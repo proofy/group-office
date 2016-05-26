@@ -1,0 +1,27 @@
+
+/* Override standard grid styles (add colour to vertical grid lines) */
+#pm-timesheet .x-grid3-col {
+    border-right: 1px solid #EDEDED;
+}
+#pm-timesheet .timer-btn{
+	background-image:url('images/clock.png') !important;	
+}
+
+
+.go-module-icon-projects , .go-menu-icon-projects , .go-tab-icon-projects {
+	background-image: url('images/projects.png') !important;
+}
+
+.go-link-icon-5 {
+	background-image: url('images/projects.png') !important;
+	width:16px;
+	height:16px;
+}
+
+.start_timer{
+	background-image:url('images/start_timer.png') !important;
+	
+}
+.stop_timer{
+	background-image:url('images/stop_timer.png') !important;
+}

@@ -1,0 +1,2 @@
+modules/sync/Settings.js
+modules/sync/DevicesGrid.js

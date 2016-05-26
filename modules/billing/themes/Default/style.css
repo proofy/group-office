@@ -1,0 +1,70 @@
+.bs-scheduled-cb .x-form-check-wrap{
+margin:4px 8px !important;
+}
+
+.go-module-icon-billing , .go-menu-icon-billing{
+	background:url('images/billing.png');	
+}
+
+.go-tab-icon-billing {
+	background-image: none !important;
+}
+
+.go-model-icon-GO_Billing_Model_Order {
+	background-image: url('images/billing.png') !important;
+}
+/*
+.bs-items-grid .x-grid3-cell-inner, .bs-items-table  .x-grid3-hd-inner {
+    overflow:     auto;
+    white-space:     normal !important;
+}*/
+
+.bs-items-totals-panel {
+	padding:1px;
+}
+
+.bs-display-items td {
+	vertical-align: top;
+}
+
+.bs-btn-catalog{
+	background-image: url('images/catalog.png') !important;
+}
+
+.bs-btn-expenses{
+	background-image: url('images/expenses.png') !important;
+}
+
+.bs-btn-batchjob{
+	background-image: url('images/batchjob.png') !important;
+}
+.bs-btn-report{
+	background-image: url('images/reports.png') !important;
+}
+
+.bs-order-id{
+	padding-left:20px;	
+}
+.bs-icon-recur{
+	background-image: url('images/recur.png') !important;
+	background-repeat: no-repeat;
+	height:16px;
+	width:16px;
+}
+
+.bs-icon-product{
+	background-image: url('images/product.png') !important;
+	height:16px;
+	width:16px;
+}
+
+.bs-late .x-grid3-cell{
+	color: red;	
+}
+
+.bs-send-email{
+	background-image: url('images/email.png') !important;
+}
+.bs-duplicate{
+	background-image: url('images/duplicate.png') !important;
+}

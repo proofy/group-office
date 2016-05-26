@@ -1,0 +1,210 @@
+.go-module-icon-tickets , .go-menu-icon-tickets{
+	background-image:url('images/tickets.png') !important;
+}
+.go-tab-icon-tickets {
+	background-image:none !important;
+}
+.go-model-icon-GO_Tickets_Model_Ticket {
+	background-image: url('images/tickets.png') !important;
+}
+
+#ti-notify, #ti-notify:hover{
+	float:left;
+	padding-left:20px;
+	line-height:16px;
+	background: url(images/tickets.png) no-repeat;
+	height:16px;
+	vertical-align:middle;
+	color:white;
+	font-size: 10px;
+	margin-top:3px;
+}
+.ti-unseen .x-grid-cell-text, .ti-unseen .x-grid3-cell-inner{
+	font-weight:bold;	
+	color:#15428B; 
+}
+
+.ti-late .x-grid-cell-text, .ti-late .x-grid3-cell-inner{
+	color:red;
+	font-weight:bold;	
+}
+
+.ti-seen{
+	background-color:#f6f6f6;
+}
+.ti-icon-attach {
+	display:none !important;
+	width: 16px; height: 16px;
+	background: url(images/16x16/attach.png) left center no-repeat;
+}
+
+/*.wrapper, .msg-wrap{
+	float:left;
+	width:100%;
+	min-width:450px;
+}*/
+.msg-wrap{
+	position: relative;
+	border-color: #cfdce0;
+	margin: 8px 0;
+	background-color: #fafafa;
+}
+.msg-wrap.from {
+	border-right: 1px solid;
+	padding-left: 30px;
+}
+.msg-wrap.to {
+	border-left: 1px solid;
+	padding-right: 30px;
+	background-color: #DAFFDA;
+}
+.msg-wrap.note {
+	background-color: #fffadd;
+	border: 1px solid;
+	border-top:0;
+}
+.msg-wrap > .x-clear { border-bottom: 1px solid; }
+.ti-msg {
+	background-position: top;
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-color: white;
+	width: 30px;
+	position:absolute;
+	top:0; bottom:0;
+}
+.ti-msg .arrow {
+	top: 0;
+	position: absolute;
+	width: 30px;
+	height:30px;
+}
+.ti-msg.from {
+	left:0;
+	border-right: 1px solid;
+}
+.ti-msg.from .arrow {
+	right:-1px;
+	background: url('images/message-left.png') top right no-repeat;
+}
+.ti-msg.to .arrow {
+	left:-1px;
+	background: url('images/message-right.png') top left no-repeat;
+}
+.ti-msg.to {
+	right:0;
+	border-left: 1px solid;
+}
+/* selected fix */
+#ti-ticket-panel .x-view-selected{
+	border-width: 0 1px;
+	margin: 8px 0;
+	background-color: #eff5fb;
+}
+
+.msg-head { border-top: 1px solid; padding: 6px 6px 0 6px;  }
+.msg-head .msg-left { font-weight: bold;}
+.msg-foot { padding: 6px 6px 0 6px; overflow:hidden;}
+span.msg-right.light, span.msg-left.light { 
+	color: #666; 
+
+}
+span.msg-left{
+	color:black;
+}
+.msg-head span, .msg-foot span { font-size: 0.9em; }
+
+div.msg-head span.msg-right, div.msg-foot span.msg-right{
+	float:right;
+
+}
+.msg-content {
+	padding:0 6px;
+	line-height: 16px;
+	text-align:justify;
+}
+.msg-attachements { padding:3px 6px; }
+.msg-attachements * { display: inline-block;  }
+.msg-attachements a { 
+	background-position: 3px center;
+	line-height: 16px;
+	border: 1px solid black; 
+	margin-right: 6px; 
+	color: #666;
+	padding-left: 23px !important;
+	padding: 3px;
+}
+.msg-attachements a:hover {
+	background-color: white;
+	color: black;
+}
+
+.x-view-over, .x-view-selected{ 
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    margin:-1px 0 0px 0;
+}
+.x-view-over{
+	background-color:#efefef;
+}
+.x-view-selected{
+	background-color:#eff5fb;	
+}
+.x-view-selected .msg-head {
+	background:transparent;
+}
+
+table.display-panel td{
+	/* Override default padding */
+}
+.column_def{
+	width:80px;
+}
+.btn-unseen {
+	background-image:url('images/16x16/important.png') !important;
+}
+.btn-seen {
+	background-image:url('images/16x16/seen.png') !important;
+}
+.tickets-grid-icon{
+	float:left;
+	width:16px;
+	height:16px;
+	margin:1px;
+	background-repeat: no-repeat;
+}
+
+.ti-message-panel .display-panel-heading{
+	padding-left:5px;
+}
+
+
+.ti-show-mine-only-cb .x-form-check-wrap{
+	margin:4px 8px !important;
+}
+
+
+.ti-rate{
+	padding-right:5px;
+	text-align:right;
+}
+.ti-rate-totals td{
+	padding:2px 5px;
+}
+
+
+.ti-high-priority td.x-grid3-td-first_column{
+	background-color:#ffd1d1;
+}
+
+.ti-low-priority td.x-grid3-td-first_column{
+	background-color:#91dfff;
+}
+.ti-btn-read{
+	background-image: url(images/16x16/read.png) !important;
+}
+.go-display-panel .ti-btn-read{	
+	width: 14px !important;
+	overflow: hidden;
+	text-indent: 100px;
+}

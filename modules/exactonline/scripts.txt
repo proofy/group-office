@@ -1,0 +1,2 @@
+modules/exactonline/views/Extjs3/PluginBilling.js
+modules/exactonline/views/Extjs3/PluginProjects2.js

@@ -1,0 +1,7 @@
+
+.go-display-panel .ti-btn-read{
+	background: url(images/16x16/read.png) no-repeat !important;
+	width: 14px !important;
+	overflow: hidden;
+	text-indent: 100px;
+}
